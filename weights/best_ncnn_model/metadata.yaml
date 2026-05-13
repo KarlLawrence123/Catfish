@@ -1,0 +1,25 @@
+description: Ultralytics YOLO11m model trained on D:\catfish_Datasets\catfish_2-6\data.yaml
+author: Ultralytics
+date: '2026-05-13T09:46:16.292289'
+version: 8.4.48
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Bacterial Gill Disease
+  1: Columnaris Disease
+  2: Healthy_Catfish
+  3: Motile Aeromonas Septicemia
+  4: Saprolegniasis
+  5: Unhealthy_Catfish
+  6: White Spot Disease
+args:
+  batch: 1
+  half: false
+channels: 3
+end2end: false
