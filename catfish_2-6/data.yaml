@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bacterial Gill Disease', 'Columnaris Disease', 'Healthy_Catfish', 'Motile Aeromonas Septicemia', 'Saprolegniasis', 'Unhealthy_Catfish', 'White Spot Disease']
+
+roboflow:
+  workspace: karls-workspace-mgmzh
+  project: catfish_2
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/karls-workspace-mgmzh/catfish_2/dataset/6
