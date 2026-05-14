@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+*.local
+
+# Roboflow download (thousands of images — re-download with the training script)
+catfish_2-*/
+
+# Optional: uncomment if you keep full Ultralytics runs locally and only publish chosen weights
+# runs/
